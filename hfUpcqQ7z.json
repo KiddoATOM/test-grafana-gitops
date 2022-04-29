@@ -25,7 +25,8 @@
         "editable": true,
         "fiscalYearStartMonth": 0,
         "graphTooltip": 0,
-        "id": 3,
+        "hideControls": false,
+        "id": null,
         "links": [],
         "liveNow": false,
         "panels": [
@@ -82,23 +83,7 @@
                             ]
                         }
                     },
-                    "overrides": [
-                        {
-                            "matcher": {
-                                "id": "byName",
-                                "options": "A-series"
-                            },
-                            "properties": [
-                                {
-                                    "id": "color",
-                                    "value": {
-                                        "fixedColor": "red",
-                                        "mode": "fixed"
-                                    }
-                                }
-                            ]
-                        }
-                    ]
+                    "overrides": []
                 },
                 "gridPos": {
                     "h": 9,
@@ -135,11 +120,10 @@
         },
         "timepicker": {},
         "timezone": "",
-        "title": "Root dashboard",
-        "uid": "d5CJd3Q7k",
-        "version": 2,
+        "title": "Demo dashboard",
+        "uid": "hfUpcqQ7z",
+        "version": 1,
         "weekStart": ""
     },
-    "folderUid": null,
-    "message": "changing to red"
+    "folderUid": null
 }

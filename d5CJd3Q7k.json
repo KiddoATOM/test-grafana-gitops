@@ -25,8 +25,7 @@
         "editable": true,
         "fiscalYearStartMonth": 0,
         "graphTooltip": 0,
-        "hideControls": false,
-        "id": null,
+        "id": 3,
         "links": [],
         "liveNow": false,
         "panels": [
@@ -83,7 +82,23 @@
                             ]
                         }
                     },
-                    "overrides": []
+                    "overrides": [
+                        {
+                            "matcher": {
+                                "id": "byName",
+                                "options": "A-series"
+                            },
+                            "properties": [
+                                {
+                                    "id": "color",
+                                    "value": {
+                                        "fixedColor": "red",
+                                        "mode": "fixed"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
                 },
                 "gridPos": {
                     "h": 9,
@@ -122,8 +137,9 @@
         "timezone": "",
         "title": "Root dashboard",
         "uid": "d5CJd3Q7k",
-        "version": 1,
+        "version": 2,
         "weekStart": ""
     },
-    "folderUid": null
+    "folderUid": null,
+    "message": "changing to red"
 }
